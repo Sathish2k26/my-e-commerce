@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Cloudy Sofa",
+    "price": 299,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1582582494700-1e6f7f4a7a2a?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0"
+  },
+  {
+    "id": "2",
+    "name": "Buttery Lamp",
+    "price": 79,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1505691723518-36a8a4a6f22b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1"
+  },
+  {
+    "id": "3",
+    "name": "Soft Rug",
+    "price": 129,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1600607684052-9a9a9b2d9c9f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2"
+  },
+  {
+    "id": "4",
+    "name": "Minimal Table",
+    "price": 199,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b15?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3"
+  }
+]

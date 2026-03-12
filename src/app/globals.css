@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--butter-bg: #fffaf6;
+	--butter-accent: #ffd8b5;
+	--butter-muted: #f6efe9;
+	--butter-text: #1f2937;
+}
+
+body {
+	background: linear-gradient(180deg, var(--butter-muted), #ffffff 60%);
+	color: var(--butter-text);
+	-webkit-font-smoothing: antialiased;
+}
+
+.butter-card {
+	background-color: #ffffff;
+	border-radius: 1rem;
+	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+	padding: 1rem;
+}
+
+.butter-btn {
+	background: linear-gradient(90deg,#fdba74,#fb923c);
+	color: #fff;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	box-shadow: 0 6px 14px rgba(15,23,42,0.08);
+}
+
+.container-max {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/* Responsive grid */
+.products-grid {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+	gap: 1rem;
+}
+
+@media (min-width: 640px) {
+	.products-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 1024px) {
+	.products-grid {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}
